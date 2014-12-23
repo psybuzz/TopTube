@@ -1,0 +1,13 @@
+{
+	"name": "TopTube",
+	"main": "index.html",
+	"window": {
+		"toolbar": false,
+		"frame": true,
+		"transparent": true,
+		"always-on-top": true
+	},
+	"webkit": {
+		"plugin": true
+	}
+}
