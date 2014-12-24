@@ -1,0 +1,15 @@
+This app was made for use with node-webkit, a project available at
+http://github.com/rogerwang/node-webkit
+with a license found here:
+https://github.com/rogerwang/node-webkit/blob/master/LICENSE
+
+The node-webkit project uses Chromium internally, which holds several licenses including:
+MIT License, the LGPL, the BSD, the Ms-PL, and an MPL/GPL/LGPL tri-license.
+
+Versions of these open source licenses can be found at the following links:
+http://opensource.org/licenses/MS-PL
+http://choosealicense.com/licenses/mit/
+http://choosealicense.com/licenses/bsd-3-clause/
+http://choosealicense.com/licenses/lgpl-2.1/
+https://www.mozilla.org/MPL/boilerplate-1.1/mpl-tri-license-c
+
