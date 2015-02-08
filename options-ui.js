@@ -17,6 +17,7 @@ var videoIFrame = document.getElementById('videoIFrame');
 var animeButton = document.getElementById('goAnime');
 var ytButton = document.getElementById('goYoutube');
 var repeatButton = document.getElementById('goRepeat');
+var twitchButton = document.getElementById('goTwitch');
 var toggleTopButton = document.getElementById('toggleTop');
 var toggleTransparentButton = document.getElementById('toggleTransparent');
 
@@ -27,6 +28,10 @@ animeButton.addEventListener('click', function (){
 
 ytButton.addEventListener('click', function (){
 	videoIFrame.src = 'https://youtube.com';
+});
+
+twitchButton.addEventListener('click', function (){
+	videoIFrame.src = 'http://twitch.tv';
 });
 
 repeatButton.addEventListener('click', function (){
@@ -55,9 +60,9 @@ toggleTopButton.addEventListener('click', function (){
 toggleTransparentButton.addEventListener('click', function (){
 	// Toggle class.
 	if (app.transparent){
-		videoIFrame.classList.remove('transparent');
+		toggleTransparentButton.classList.remove('enabled');
 	} else {
-		videoIFrame.classList.add('transparent');
+		toggleTransparentButton.classList.add('enabled');
 	}
 
 	// Update state.
